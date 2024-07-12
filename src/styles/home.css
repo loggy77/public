@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+header {
+  max-width: 100%;
+  height: 90px;
+  background-color: darksalmon;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 90px;
+  height: 90px;
+  mix-blend-mode: darken;
+  margin: 0 10px;
+}
+
+header a {
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  border: 2px black solid;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.home-presentation {
+  background-color: darksalmon;
+  height: 200px;
+  clip-path: polygon(0 0, 100% 0%, 100% 83%, 0% 100%);
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px,
+    rgba(231, 231, 231, 0.12) 0px -12px 30px,
+    rgba(255, 255, 255, 0.12) 0px 4px 6px,
+    rgba(255, 255, 255, 0.17) 0px 12px 13px,
+    rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+
+.home-creations {
+  color: white;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home-creations article {
+  width: 50%;
+  margin-top: 15px;
+  color: black;
+}
+
+.creations-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
